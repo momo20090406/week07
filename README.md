@@ -1,32 +1,42 @@
-# Anime Collection Website
+# 动漫收藏网站
 
-## Overview
-This project is a **single‑page anime collection web app** built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**. It demonstrates a clean, modern UI using glass‑morphism style components, smooth micro‑animations, and a dark theme.
+## 项目简介
+本项目是一个使用 **Next.js (App Router)**、**TypeScript** 与 **Tailwind CSS** 构建的动漫收藏网站。用户可以在页面上新增、查看、删除动漫条目，数据持久化在 `data/data.json`，后端通过 `app/api/items/route.ts` 提供 **GET**、**POST**、**PUT**、**DELETE** 接口。
 
-- **Data source**: `data/data.json` – a local JSON file storing anime items (title, image URL, description, etc.).
-- **API**: `app/api/items/route.ts` provides **GET** and **POST** endpoints that read/write the JSON file via `fs/promises`.
-- **Frontend**: `app/page.tsx` shows a form for adding new anime entries (using `useState` for local caching) and a list that is synced with the backend via `fetch()`.
+## 目录结构
+```
+.
+├─ app/                # 页面与 API 路由
+│  ├─ api/items/       # items API（GET/POST/PUT/DELETE）
+│  ├─ page.tsx         # 主页面，使用 useState、useEffect 与 fetch
+│  └─ ...
+├─ data/               # 存放 data.json（本地“数据库”）
+├─ public/             # 静态资源
+├─ README.md           # 本说明文件（中文）
+├─ package.json        # 项目依赖
+└─ ...
+```
 
-## Features
-- Add new anime items through a form.
-- View the current collection in a responsive grid.
-- Persist data in a JSON file – no database required.
-- Fully typed with TypeScript for safety.
-- Tailwind CSS for rapid styling and a premium glass‑morphism look.
-- Dark‑mode ready and mobile‑responsive.
-
-## Getting Started
+## 本地运行
 ```bash
-# Install dependencies
+# 安装依赖
 npm install
 
-# Run the development server
+# 启动开发服务器（http://localhost:3000）
 npm run dev
 ```
-Open http://localhost:3000 to see the app.
 
-## Deployment
-The app can be deployed to Vercel or any platform that supports Next.js. Ensure the `data/` folder is included in the build so the JSON file is available at runtime.
+## 构建生产版本
+```bash
+npm run build
+npm start   # 运行已构建的产出
+```
 
-## License
-MIT © 2026
+## Git 操作流程（已在 CI 中自动执行）
+1. **添加/修改文件**：`git add <file>`
+2. **提交**：`git commit -m "说明信息"`
+3. **推送到远端**：`git push origin main`
+   - 推送时会弹出浏览器进行 GitHub **网页认证**（OAuth），登录并授权后即可完成。 
+
+---
+> 本项目已在 GitHub 上公开，仓库地址： https://github.com/momo20090406/week07
