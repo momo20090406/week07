@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "anime-1780713398393-uyiyojwjv",
+      "title": "孤獨搖滾",
+      "japaneseTitle": "bochi roku",
+      "description": "暫無簡介資訊。",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/96/Bocchi_the_Rock_vol.1.jpg",
+      "rating": 5,
+      "status": "completed",
+      "episodesCount": 12,
+      "genres": [
+        "搞笑"
+      ],
+      "releaseYear": 2022,
+      "createdAt": "2026-06-06T02:36:38.393Z",
+      "updatedAt": "2026-06-06T02:36:38.393Z"
+    },
+    {
+      "id": "frieren-uuid-1",
+      "title": "葬送的芙莉蓮",
+      "japaneseTitle": "葬送のフリーレン",
+      "description": "在打倒魔王之後的勇者一行人中，身為精靈的魔法使芙莉蓮與夥伴們的故事。探討時間、生命與情感的雋永神作。",
+      "imageUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=60",
+      "rating": 5,
+      "status": "completed",
+      "episodesCount": 28,
+      "genres": [
+        "奇幻",
+        "冒險",
+        "日常"
+      ],
+      "releaseYear": 2023,
+      "personalNote": "作畫跟音樂都是神級！非常有深度的一部作品，芙莉蓮的感情變化描寫得非常細膩。推薦所有人必看！",
+      "createdAt": "2026-06-06T09:00:00.000Z",
+      "updatedAt": "2026-06-06T09:00:00.000Z"
+    },
+    {
+      "id": "aot-uuid-2",
+      "title": "進擊的巨人",
+      "japaneseTitle": "進撃の巨人",
+      "description": "人類築起高牆防禦巨大的人型生物「巨人」，而艾連·葉卡立志消滅所有巨人並探索牆外真相的史詩級巨作。",
+      "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=60",
+      "rating": 5,
+      "status": "completed",
+      "episodesCount": 87,
+      "genres": [
+        "熱血",
+        "動作",
+        "懸疑"
+      ],
+      "releaseYear": 2013,
+      "personalNote": "從第一季到完結篇的宏大敘事、反轉以及深刻的政治與人性探討，是不可多得的ACG里程碑神作。",
+      "createdAt": "2026-06-06T09:05:00.000Z",
+      "updatedAt": "2026-06-06T09:05:00.000Z"
+    }
+  ]
+}
